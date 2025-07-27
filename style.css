@@ -1,0 +1,50 @@
+header {
+    position: relative;
+    max-width: 1500px;
+}
+
+header img {
+    width: 100%;
+    display: block;
+}
+
+.display-middle {
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+.border {
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;   
+}
+
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 25%);
+    bottom: 0;
+    width: 50%;
+    background: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #000;
+    margin: 0 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #d94f4f;
+}
